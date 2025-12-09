@@ -37,7 +37,7 @@ export const useGameLogic = (cardValues) => {
   };
 
   useEffect(() => {
-    initializeGame;
+    initializeGame();
   }, []);
 
   const handleCardClick = (card) => {
